@@ -1,8 +1,19 @@
 <html>
 <body>
-  <span onClick="if ('<b>hello/b>'==this.innerHTML)
+  <span onClick="if ('<b>hello</b>'==this.innerHTML)
                  this.innerHTML='<i>scum</i>; else this.innerHTML='<b>hello</b>';">
     <b>hello</b>
+    
+    <form onSubmit="return false;">
+<input type="text" name="input1"> +
+  <input tye="text" name="input2">
+    <input type="text" name="input3"> -
+      <input tye="text" name="input4">
+<input type="button" value="enter"
+onclick="this.form.output.value = 
+parseInt(this.form.input1.value) + parseInt(this.form.input2.value) + parseInt(this.form.input3.value) - parseInt(this.form.input4.value);">
+<input type="text" name="output">
+</form>
   </span>  
 </body>
 </html>
