@@ -1,12 +1,9 @@
 <html>
+<head><title>My first page</title></head>
 <body>
-<form onSubmit="return false;">
-<input type="text" name="input1">
-<input tye="text" name="input2">
-<input type="button" value="enter"
-onclick="this.form.output.value = 
-this.form.input1.value+ this.form.input2.value;">
-<input type="text" name="output">
-</form>
-</body>
-</html>
+  <script>
+    document.write("Hello world")
+  </script>
+  <h1><b><i>Hello World1</b></i></h1>
+ </body>
+</html> 
